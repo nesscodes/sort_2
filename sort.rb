@@ -21,6 +21,8 @@ def minimum(arr)
   #sort(arr).first
   arr.reduce {|smallest,num| if num < smallest then num else smallest end}
 end
+
+#expect a chnage
  
 # expect it to return 42 below
 result = maximum([2, 42, 22, 02])
